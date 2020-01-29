@@ -16,6 +16,8 @@
 		63D0C10223E17E39000E281C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D0C10023E17E39000E281C /* LaunchScreen.storyboard */; };
 		63D0C10D23E17E39000E281C /* CoreDataLessonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0C10C23E17E39000E281C /* CoreDataLessonTests.swift */; };
 		63D0C11823E17E39000E281C /* CoreDataLessonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0C11723E17E39000E281C /* CoreDataLessonUITests.swift */; };
+		63D0C12B23E193F7000E281C /* ShoppingItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0C12923E193F7000E281C /* ShoppingItem+CoreDataClass.swift */; };
+		63D0C12C23E193F7000E281C /* ShoppingItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0C12A23E193F7000E281C /* ShoppingItem+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		63D0C11323E17E39000E281C /* CoreDataLessonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataLessonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D0C11723E17E39000E281C /* CoreDataLessonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataLessonUITests.swift; sourceTree = "<group>"; };
 		63D0C11923E17E39000E281C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D0C12923E193F7000E281C /* ShoppingItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShoppingItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		63D0C12A23E193F7000E281C /* ShoppingItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShoppingItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		63D0C0E623E17E38000E281C = {
 			isa = PBXGroup;
 			children = (
+				63D0C12923E193F7000E281C /* ShoppingItem+CoreDataClass.swift */,
+				63D0C12A23E193F7000E281C /* ShoppingItem+CoreDataProperties.swift */,
 				63D0C0F123E17E38000E281C /* CoreDataLesson */,
 				63D0C10B23E17E39000E281C /* CoreDataLessonTests */,
 				63D0C11623E17E39000E281C /* CoreDataLessonUITests */,
@@ -264,7 +270,9 @@
 			files = (
 				63D0C0F723E17E38000E281C /* ViewController.swift in Sources */,
 				63D0C0F323E17E38000E281C /* AppDelegate.swift in Sources */,
+				63D0C12B23E193F7000E281C /* ShoppingItem+CoreDataClass.swift in Sources */,
 				63D0C0FD23E17E38000E281C /* CoreDataLesson.xcdatamodeld in Sources */,
+				63D0C12C23E193F7000E281C /* ShoppingItem+CoreDataProperties.swift in Sources */,
 				63D0C0F523E17E38000E281C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
